@@ -1,0 +1,19 @@
+.form__login-button {
+    list-style: none;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s linear;
+}
+
+.form__login-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

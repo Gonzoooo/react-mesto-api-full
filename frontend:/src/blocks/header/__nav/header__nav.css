@@ -1,0 +1,16 @@
+.header__nav {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-left: 24px;
+    transition: opacity 0.3s linear;
+}
+
+.header__nav:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

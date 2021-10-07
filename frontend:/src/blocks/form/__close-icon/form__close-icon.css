@@ -1,0 +1,21 @@
+.form__close-icon {
+    background-color: transparent;
+    border-style: none;
+    padding: 0;
+    transition: opacity 0.3s linear;
+    position: absolute;
+    right: -36px;
+    top: -37px;
+}
+
+.form__close-icon:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 467px) {
+    .form__close-icon {
+        right: 2px;
+        top: -48px;
+    }
+}

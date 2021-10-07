@@ -1,0 +1,7 @@
+.form_for_info-tooltip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 330px;
+}

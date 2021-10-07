@@ -1,0 +1,10 @@
+.header__logo:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 467px){
+    .header__logo {
+        padding: 0 0 0 27px;
+        max-width: 104px;
+    }
+}

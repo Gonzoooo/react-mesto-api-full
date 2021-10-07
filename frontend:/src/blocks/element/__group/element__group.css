@@ -1,0 +1,9 @@
+.element__group {
+    margin: auto;
+    max-width: 246px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,13 @@
+.popup__input_for_user {
+    color: #ffffff;
+    background-color: #000000;
+    border-bottom: 2px solid rgba(204, 204, 204, 0.2);
+}
+
+.popup__input_for_user::placeholder {
+    color: #CCC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
