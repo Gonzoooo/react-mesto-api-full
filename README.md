@@ -3,6 +3,8 @@
   
 # [Ссылка HTTPS](https://gonzoooo.nomoredomains.club/) 
 # [Ссылка HTTP](http://gonzoooo.nomoredomains.club/) 
-# [Ссылка на публичный IP-адрес](https://84.201.160.114/) 
+# [Публичный IP-адрес 84.201.160.114](http://84.201.160.114/) 
+# [API](https://api.gonzoooo.nomoredomains.club/) 
+
 
 
