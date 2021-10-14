@@ -12,7 +12,7 @@ const {
 } = require('../controllers/users');
 
 const method = (value) => {
-  const result = validator.isURL(value);
+  const result = validator.isURL(value, { require_protocol: true });
   if (result) {
     return value;
   }

@@ -36,7 +36,7 @@ module.exports.createUser = (req, res, next) => {
       password: hash,
     }))
     .then((user) => res.status(201)
-      .send(user))
+      .send({ message: `Пользователь ${user.email} успешно зарегестрирован` }))
     .catch(next);
 };
 
@@ -57,7 +57,9 @@ module.exports.login = (req, res, next) => {
       res.cookie('jwt', token, {
         maxAge: 3600000 * 24 * 7,
         httpOnly: true,
-        sameSite: true,
+        sameSite: 'none',
+        secure: true,
+
       })
         .send({ message: `Пользователь ${email} авторизован` });
     })

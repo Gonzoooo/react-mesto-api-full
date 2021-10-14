@@ -15,7 +15,7 @@ const {
 } = require('../controllers/cards');
 
 const method = (value) => {
-  const result = validator.isURL(value);
+  const result = validator.isURL(value, { require_protocol: true });
   if (result) {
     return value;
   }
